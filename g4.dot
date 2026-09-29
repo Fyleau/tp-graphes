@@ -1,15 +1,15 @@
 graph {
-  node [shape="none", image="router.png", labelloc="b", fontcolor="red", fontsize="16pt"];
-  edge [fontsize="16pt", fontcolor="blue", color="gray"];
+  node [shape="none", image="router.png", imagescale="both", fixedsize=true, width="0.9", height="0.55", labelloc="b", fontcolor="red", fontsize="14pt"];
+  edge [fontsize="11pt", fontcolor="blue", color="gray40"];
 
-  A [pos="8,4!"];
-  B [pos="5.5,7!"];
-  C [pos="5.5,3.5!"];
-  D [pos="3,3.5!"];
-  E [pos="3.5,0.7!"];
   F [pos="1,2!"];
-  G [pos="1.2,5.5!"];
-  H [pos="3,7.5!"];
+  E [pos="3.5,0.7!"];
+  D [pos="3.5,3.8!"];
+  G [pos="1.3,5.6!"];
+  H [pos="3.4,7.6!"];
+  C [pos="6,4!"];
+  B [pos="6,7.4!"];
+  A [pos="8.5,5.2!"];
 
   A -- B [label="1"];
   A -- C [label="4"];
