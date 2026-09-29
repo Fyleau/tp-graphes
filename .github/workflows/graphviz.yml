@@ -13,11 +13,11 @@ jobs:
 
       - name: Lancement graphviz
         run: |
-          chmod +x run1.sh
-          ./run1.sh g1
+          chmod +x run2.sh
+          ./run2.sh
 
       - name: upload du resultat
         uses: actions/upload-artifact@v4
         with:
-          name: graphe1
-          path: g1.svg
+          name: tous-les-graphes
+          path: "*.svg"
